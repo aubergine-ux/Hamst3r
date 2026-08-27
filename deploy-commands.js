@@ -21,7 +21,7 @@ const rest = new REST().setToken(process.env.DISCORD_TOKEN);
 (async () => {
   try {
     await rest.put(
-      Routes.applicationGuildCommands(process.env.CLIENT_ID, process.env.GUILD_ID),
+      Routes.applicationCommands(process.env.CLIENT_ID),
       { body: commands }
     );
     console.log(`Registered ${commands.length} commands.`);

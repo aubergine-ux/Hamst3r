@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const fs = require('node:fs');
 const path = require('node:path');
-const { Client, Collection, GatewayIntentBits, MessageFlags } = require('discord.js');
+const { Client, Collection, GatewayIntentBits, MessageFlags, ActivityType } = require('discord.js');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -20,7 +20,12 @@ for (const file of commandFiles) {
 }
 
 client.once('clientReady', () => {
-  console.log(`Logged in as ${client.user.tag} — ${client.commands.size} commands`);
+	console.log(`Logged in as ${client.user.tag} — ${client.commands.size} commands`);
+
+	client.user.setPresence({
+		activities: [{ name: 'hamst3r', type: ActivityType.Custom, state: '🐹 nom nom nom' }],
+		status: 'online',
+	});
 });
 
 client.on('interactionCreate', async (interaction) => {
