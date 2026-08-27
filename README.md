@@ -1,4 +1,7 @@
-# Hamst3r
+# Hamst3r <img width="2000" height="520" alt="lockup-horizontal-light-2000" src="https://github.com/user-attachments/assets/29d7e4c4-9a5c-4206-862a-8403a0a46f99" />
+
+
+
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Discord.js](https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white)
