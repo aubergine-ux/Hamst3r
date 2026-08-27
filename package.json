@@ -1,6 +1,6 @@
 {
   "name": "hamst3r",
-  "version": "HB v26.8",
+  "version": "HB v26.9",
   "description": "Hamst3r - a meme bot for Discord",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "deploy": "node deploy-commands.js"
   },
   "dependencies": {
+    "@napi-rs/canvas": "^1.0.8",
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.5"
   },
