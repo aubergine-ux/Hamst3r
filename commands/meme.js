@@ -90,6 +90,9 @@ async function renderMeme(templateFile, top, bottom) {
 }
 
 module.exports = {
+	TEMPLATES,
+	renderMeme,
+
 	data: new SlashCommandBuilder()
 		.setName('meme')
 		.setDescription('Make a meme!')
