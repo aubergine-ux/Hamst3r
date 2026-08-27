@@ -1,6 +1,6 @@
 {
   "name": "hamst3r",
-  "version": "0.1.0",
+  "version": "HB v26.8",
   "description": "Hamst3r - a meme bot for Discord",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,5 @@
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.5"
   },
-  "license": "MIT"
+  "license": "GPLv3"
 }
