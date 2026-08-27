@@ -1,6 +1,6 @@
 {
   "name": "hamst3r",
-  "version": "HB v26.10",
+  "version": "HB v26.11",
   "description": "Hamst3r - a meme bot for Discord",
   "main": "index.js",
   "scripts": {
