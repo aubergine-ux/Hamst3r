@@ -42,7 +42,6 @@ A meme bot for Discord, built with [Discord.js](https://discord.js.org/).
 | `/ship <first> <second>` | Calculate compatibility between two people. |
 | `/meow` | Meow. |
 | `/mrrp` | Mrrp. |
-| `/aubergine` | Link to the Developer's Page |
 | `/steal <emoji>` | Steal an emoji from another server. |
 
 ### Moderation
@@ -66,6 +65,7 @@ A meme bot for Discord, built with [Discord.js](https://discord.js.org/).
 
 | Command | Description |
 | --- | --- |
+| `/aubergine` | Link to the Developer's Page |
 | `/ping` | Check if the hamster is awake. |
 
 ---
