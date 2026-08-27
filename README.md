@@ -24,10 +24,49 @@ A meme bot for Discord, built with [Discord.js](https://discord.js.org/).
 
 ## Commands
 
+### Memes
+
+| Command | Description |
+| --- | --- |
+| `/meme <top> [bottom] [template]` | Caption a meme template. Picks one at random if you don't name it. |
+| `/templates` | List every template Hamst3r knows. |
+
+### Fun
+
+| Command | Description |
+| --- | --- |
+| `/8ball <question>` | Consult the Hamst3r Oracle. |
+| `/catfact` | A random cat fact. |
+| `/coinflip` | Heads or tails. |
+| `/roll [dice]` | Roll dice. |
+| `/ship <first> <second>` | Calculate compatibility between two people. |
+| `/meow` | Meow. |
+| `/mrrp` | Mrrp. |
+| `/aubergine` | Link to the Developer's Page |
+| `/steal <emoji>` | Steal an emoji from another server. |
+
+### Moderation
+
+| Command | Description |
+| --- | --- |
+| `/ban <user> [reason]` | Ban a member. |
+| `/kick <user> [reason]` | Kick a member. |
+| `/purge <amount>` | Bulk-delete recent messages. |
+| `/slowmode <seconds>` | Set channel slowmode. |
+| `/nickname <user> <name>` | Change a member's nickname. |
+
+### Minecraft
+
+| Command | Description |
+| --- | --- |
+| `/mcstatus <server>` | Check a Minecraft server's status. |
+| `/mcskin <username>` | Look up a player's skin. |
+
+### Utility
+
 | Command | Description |
 | --- | --- |
 | `/ping` | Check if the hamster is awake. |
-| `/8ball <question>` | Consult the hamster oracle. |
 
 ---
 
