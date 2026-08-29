@@ -30,6 +30,15 @@ A meme bot for Discord, built with [Discord.js](https://discord.js.org/).
 | --- | --- |
 | `/meme <top> [bottom] [template]` | Caption a meme template. Picks one at random if you don't name it. |
 | `/templates` | List every template Hamst3r knows. |
+| `/deepfry <image> [level]` | Ruin an image, respectfully. Level 1–5. |
+
+### Leveling
+
+| Command | Description |
+| --- | --- |
+| `/rank [user]` | Show a rank card with level, rank, and XP progress. |
+| `/leaderboard` | Top 10 members by XP in this server. |
+| `/rankcard [accent] [background] [reset]` | Customise your rank card's colour and background. |
 
 ### Fun
 
@@ -65,8 +74,23 @@ A meme bot for Discord, built with [Discord.js](https://discord.js.org/).
 
 | Command | Description |
 | --- | --- |
-| `/aubergine` | Link to the Developer's Page |
+| `/aubergine` | Link to the developer's page. |
 | `/ping` | Check if the hamster is awake. |
+
+---
+
+## Leveling
+
+Members earn 15–25 XP per message, capped at one award per minute so spam
+doesn't inflate the leaderboard. XP is tracked per server. Grinding in one
+server doesn't carry over to another.
+
+Progress is stored in a local SQLite database (`hamst3r.db`), created
+automatically on first run.
+
+Rank cards are generated with [`@napi-rs/canvas`](https://github.com/Brooooooklyn/canvas).
+Users can set an accent colour and a background image with `/rankcard`, or
+put things back with `/rankcard reset: true`.
 
 ---
 
