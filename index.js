@@ -6,6 +6,7 @@ const { Client, Collection, GatewayIntentBits, MessageFlags, ActivityType } = re
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
+// Load every .js file in ./commands, skipping _underscore files (templates, WIP)
 client.commands = new Collection();
 
 const commandsDir = path.join(__dirname, 'commands');
@@ -33,6 +34,7 @@ client.on('interactionCreate', async (interaction) => {
 	const command = client.commands.get(interaction.commandName);
 	if (!command) return;
 
+	// Log every command run, in every server.
 	const time = new Date().toISOString().slice(11, 19);
 	const where = interaction.guild ? `${interaction.guild.name} (${interaction.guild.id})` : 'DM';
 	const args = interaction.options.data
@@ -44,6 +46,7 @@ client.on('interactionCreate', async (interaction) => {
 			`— ${interaction.user.username} (${interaction.user.id}) in ${where}`
 	);
 
+	// Commands handle their own errors, but this catches anything that slips out.
 	try {
 		await command.execute(interaction);
 	} catch (error) {
