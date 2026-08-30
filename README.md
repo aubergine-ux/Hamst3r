@@ -49,6 +49,7 @@ A meme bot for Discord, built with [Discord.js](https://discord.js.org/).
 | `/coinflip` | Heads or tails. |
 | `/roll [dice]` | Roll dice. |
 | `/ship <first> <second>` | Calculate compatibility between two people. |
+| `/gif <search>` | Search for a GIF. |
 | `/meow` | Meow. |
 | `/mrrp` | Mrrp. |
 | `/steal <emoji>` | Steal an emoji from another server. |
@@ -62,6 +63,8 @@ A meme bot for Discord, built with [Discord.js](https://discord.js.org/).
 | `/purge <amount>` | Bulk-delete recent messages. |
 | `/slowmode <seconds>` | Set channel slowmode. |
 | `/nickname <user> <name>` | Change a member's nickname. |
+| `/announce <message>` | Post an announcement to a channel. |
+| `/echo <message>` | Make Hamst3r say something. |
 
 ### Minecraft
 
@@ -74,6 +77,11 @@ A meme bot for Discord, built with [Discord.js](https://discord.js.org/).
 
 | Command | Description |
 | --- | --- |
+| `/avatar [user]` | Show a user's avatar in full size. |
+| `/info` | Information about Hamst3r. |
+| `/poll <question> [options]` | Start a poll. |
+| `/hex <colour>` | Preview a hex colour. |
+| `/crypto <coin>` | Current cryptocurrency price. |
 | `/aubergine` | Link to the developer's page. |
 | `/ping` | Check if the hamster is awake. |
 
