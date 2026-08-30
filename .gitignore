@@ -1,0 +1,7 @@
+node_modules/
+.env
+hamst3r.db
+hamst3r.db-wal
+hamst3r.db-shm
+assets/impact.ttf
+.directory
